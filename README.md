@@ -33,3 +33,29 @@ Dibawah ini merupakan hasil output dari syntax diatas
 
 ## Praktikum 3
 <img width="334" alt="ss1 (prkt 3)" src="https://user-images.githubusercontent.com/73053784/98433884-7794fe80-20fd-11eb-94c1-f16262510bb3.png">
+
+#### Latihan 1
+<img width="332" alt="ss 3(prkt 3)" src="https://user-images.githubusercontent.com/73053784/98434287-f3dd1100-2100-11eb-9acc-9b61c5149b62.png">
+
+### SYNTAX
+berikut merupakan syntax untuk menampilkan program diatas
+ ``` python
+print('Bilangan Acak Yang Lebih Kecil Dari 0.5')
+import random
+n = int ( input ("Masukkan Nilai;"))
+a = 0
+for c in range (n):
+    a+= 1
+    b = random.uniform(.0, .5)
+    print('data ke:', a, '==>', b)
+    print("selesai")
+```
+
+#### OUTPUT
+Dibawah ini merupakan hasil output dari syntax diatas
+
+
+<img width="637" alt="ss 2 (prkt 3)" src="https://user-images.githubusercontent.com/73053784/98434380-87aedd00-2101-11eb-9178-faf4ade15d56.png">
+
+#### Latihan 2
+<img width="368" alt="ss 4(prkt 3)" src="https://user-images.githubusercontent.com/73053784/98434416-de1c1b80-2101-11eb-910b-3c0b64e654c1.png">
