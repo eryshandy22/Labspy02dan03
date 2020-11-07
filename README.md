@@ -59,3 +59,33 @@ Dibawah ini merupakan hasil output dari syntax diatas
 
 #### Latihan 2
 <img width="368" alt="ss 4(prkt 3)" src="https://user-images.githubusercontent.com/73053784/98434416-de1c1b80-2101-11eb-910b-3c0b64e654c1.png">
+
+### SYNTAX
+berikut merupakan syntax untuk menampilkan program diatas
+``` python
+print('===== Menentukan Bilangan Terbesar =====')
+
+max=0
+
+while True:
+
+    a=int(input('Masukkan Bilangan = '))
+
+    if max < a:
+
+        max = a
+
+    if a==0:
+
+        break
+
+print('Bilangan Terbesar adalah = ',max)
+```
+
+#### OUTPUT
+Dibawah ini merupakan hasil output dari syntax diatas
+
+
+<img width="651" alt="ss 5 (prkt 3)" src="https://user-images.githubusercontent.com/73053784/98434814-a57e4100-2105-11eb-8416-478e9f0ab77d.png">
+
+
