@@ -51,6 +51,25 @@ for c in range (n):
     print("selesai")
 ```
 
+Penjelasan program menampilkan n Bilangan acak yang lebih kecil dari 0.5
+``` python
+print('Bilangan Acak Yang Kecil Dari 0.5')
+```
+Untuk Menampilkan atau Mencetak kalimat Tampilkan n Bilangan Acak yang Lebih Kecil Dari 0.5.
+``` python
+n = int ( input ("Masukkan Nilai;"))
+```
+Untuk menentukan jumlah input yang di inginkan sesuai tipe data yaitu interger tipe data bilangan bulat import random Untuk pengulangan secara acak.
+``` python
+for c in range (n):
+```
+Untuk Pengulangan dengan range jumlah print.
+``` python
+ a+= 1
+    b = random.uniform(.0, .5)
+```
+Untuk menampilkan atau mencetak urutan data sesuai jumlah inputan dengan hasil di bawah 0.5.
+
 #### OUTPUT
 Dibawah ini merupakan hasil output dari syntax diatas
 
@@ -82,6 +101,39 @@ while True:
 print('Bilangan Terbesar adalah = ',max)
 ```
 
+Penjelasan Program Bilangan Terbesar Dari n Buah Data Yang Dimasukkan.
+``` python
+print('===== Menentukan Bilangan Terbesar =====')
+```
+Untuk menampilkan kalimat Menampilkan Bilangan Terbesar Dari n Buah Data Yang Diinputkan.
+``` python
+max=0
+```
+untuk menentukan nilai max nya adalah 0.
+``` python
+while True:
+```
+Untuk perulangan hingga waktu yang tidak di tentukan atau selamanya.
+``` python
+a=int(input('Masukkan Bilangan = '))
+```
+untuk menginput tipe data interger ( bilangan bulat ).
+``` python
+ if max < a:
+```
+jika max kurang dari a maka
+``` python
+ max = a
+
+    if a==0:
+
+        break
+```
+jika a= 0 maka akan berhenti dengan syarat break yang terpenuhi.
+``` python
+print('Bilangan Terbesar adalah = ',max)
+```
+Menampilkan Bilangan Terbesar Adalah : Nilai maximumnya.
 #### OUTPUT
 Dibawah ini merupakan hasil output dari syntax diatas
 
